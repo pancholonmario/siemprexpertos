@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Siemprexpertos.com</title>
+    <title>Siemprexpertos.com | Servicios Profesionales</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('siemprexpertos/categorias/vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
@@ -47,6 +47,7 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 
+  <link rel="shortcut icon" href="{{ url('favicon.png') }}">
   </head>
 
   <body id="page-top">

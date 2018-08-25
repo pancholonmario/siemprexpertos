@@ -37,6 +37,7 @@ hr {
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 
+<link rel="shortcut icon" href="{{ url('favicon.png') }}">
 
 </head>
 
@@ -64,6 +65,8 @@ hr {
       </nav>
 
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+
+
 
   </header>
   <!--header navigation -->
