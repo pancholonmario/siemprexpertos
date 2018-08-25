@@ -258,7 +258,7 @@
 
           SIEMPREXPERTOS.COM Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
 
-          Esta politica de privacidad se han generado en politicadeprivacidadplantilla.com.
+        
 
       </p>
       </div>

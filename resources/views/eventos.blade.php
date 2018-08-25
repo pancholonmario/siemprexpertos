@@ -87,7 +87,9 @@
           <a href="#"> <h5>- Animadores Infantiles</h5></a> <br><br>
           <a href="#"> <h5>- Servicio de Catering</h5></a>
             </div>
-          <div class="col-sm-8"> <img src="{{asset('siemprexpertos/nova/eventos/images/eventosimportantes.png')}}" width="460" height="375" alt=""> </div>
+          <div class="col-sm-8">
+            <img class="img-fluid" src="{{asset('siemprexpertos/nova/eventos/images/eventosimportantes.png')}}" width="460" height="375" alt=""> 
+          </div>
         </div><br><br>
 <hr/>
 

@@ -85,7 +85,14 @@
           <a href="#"> <h5>- Servicios de Seguridad</h5></a>
 
             </div>
-          <div class="col-sm-8"> <img src="https://s3-eu-west-1.amazonaws.com/rankia/images/valoraciones/0025/5637/que-hace-y-como-ser-contador-auditor-chile.png?1481111320" width="460" height="375" alt=""> </div>
+
+                  <div class="col-sm-8">
+
+                 <img class="img-fluid" src="https://s3-eu-west-1.amazonaws.com/rankia/images/valoraciones/0025/5637/que-hace-y-como-ser-contador-auditor-chile.png?1481111320" width="460" height="375" alt="">
+
+               </div>
+
+
         </div><br><br>
 <hr/>
 

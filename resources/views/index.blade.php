@@ -74,8 +74,11 @@ hr {
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <h1 style="font-size: 35px;">¿NECESITAS UN SERVICIO PROFESIONAL?</h1>
-        <p style="font-size: 18px;">Dj, Fotógrafos, Plomeros y mucho más..GRATIS</p>
+        <div class="row">
+          <h1 style="font-size: 35px;">¿NECESITAS UN SERVICIO PROFESIONAL?</h1>
+          <p style="font-size: 18px;">Dj, Fotógrafos, Plomeros y mucho más..GRATIS</p>
+        </div>
+
 
 
 
@@ -438,9 +441,13 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
     <div class="col-md-8 col-md-offset-2 text-center">
       <h3>Forma parte de nuestra red de Profesionales de Siemprexpertos.com!</h3>
       <a href="{{ url('/iniciarsesion') }}" class="btn btn-large" title="Registrate de manera gratuita">Registrarse</a> </div>
+        <br><br>
 
-      <a href="https://m.me/1709636575998166">Envíanos un mensaje en Facebook
-      <i class="fa fa-facebook-f"></i></a>
+        <div class="" style="text-align: center;">
+          <a href="https://m.me/1709636575998166" align"center">Envíanos un mensaje en Facebook
+          <i class="fa fa-facebook-f"></i></a>
+        </div>
+
 
   </div>
 </section>
@@ -606,8 +613,6 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
               Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.
 
               SIEMPREXPERTOS.COM Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
-
-              Esta politica de privacidad se han generado en politicadeprivacidadplantilla.com.
 
           </p>
           </div>
@@ -927,8 +932,18 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
 
           </ul>
         </div>
+
+          <div class="footer-copyright py-3 text-center col-md-6" style="color:rgb(252, 251, 252)";>
+            © Copyright:
+            <a href="{{ url('/') }}">Siemprexpertos</a>
+          </div>
+
+
+
       </div>
+
     </div>
+
   </div>
   <!-- footer top -->
 
