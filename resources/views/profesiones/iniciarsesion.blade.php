@@ -240,7 +240,7 @@
       <div class="col-lg-12 mx-auto" align="center">
         <h4>Siemprexpertos.com es una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios</h4><br><br>
         <center>
-        <img src="https://cdn.filepicker.io/api/file/UVyFwZmnRuKEoswQDhpw" with="290" height="290" alt="">
+        <img class="img-fluid" src="https://cdn.filepicker.io/api/file/UVyFwZmnRuKEoswQDhpw" with="290" height="290" alt="">
       </center><br><br>
 
       <h3 align="center">Si buscas trabajo por horas entonces..</h3><br>
