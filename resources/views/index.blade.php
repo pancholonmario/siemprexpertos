@@ -75,22 +75,33 @@ hr {
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
         <div class="row">
-          <h1 style="font-size: 35px;">¿NECESITAS UN SERVICIO PROFESIONAL?</h1>
-          <p style="font-size: 18px;">Dj, Fotógrafos, Plomeros y mucho más..GRATIS</p>
+
+            <h2 style="font-size: 35px; color:rgb(252, 251, 252); text-align: center;">¿NECESITAS UN SERVICIO PROFESIONAL?</h2>
+            <p style="font-size: 18px;">Dj, Fotógrafos, Plomeros y mucho más..GRATIS</p>
+
+
+
         </div>
 
+        <div class="col-sm-1 text-right">
 
+        </div>
 
+<div class="col-sm-9">
 
-        <select style="width:350px" id="nameid" onchange="if (this.value) window.location.href=this.value">
-        <option></option>
-        @foreach($data as $tu)
-          <option value="{{$tu->url}}">{{$tu->name}}</option>
-        @endforeach
-      </select><br>
+  <select class="form-control input-lg" id="nameid" onchange="if (this.value) window.location.href=this.value">
+  <option></option>
+  @foreach($data as $tu)
+    <option value="{{$tu->url}}">{{$tu->name}}</option>
+  @endforeach
+  </select>
 
+</div>
 
+<div class="col-sm-1">
 
+</div>
+        <br>
 
 
 
@@ -972,7 +983,7 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
 <script type="text/javascript">
 
       $("#nameid").select2({
-            placeholder: "  B U S C A R  ",
+            placeholder: "  B U S C A R ",
             allowClear: true
         });
 </script>
