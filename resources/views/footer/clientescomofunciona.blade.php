@@ -68,15 +68,34 @@
       <div class="col-lg-10 mx-auto text-center">
 
           <h3>Siemprexpertos.com te ayuda a conseguir profesionales de manera gratuita visita nuestras categorias disponibles</h3><br>
-          <img class="img-fluid" src="{{asset('siemprexpertos/images/profesionalquitoacuerdo3.jpg)')}}" width="460" height="345" alt=""><br><br><br><br>
+          <img class="img-fluid" src="{{asset('siemprexpertos/images/profesionalquitoacuerdo3.jpg')}}" width="460" height="345" alt=""><br><br><br><br>
 
-            <h3>Encuentra el servicio que necesitas</h3>
-            <select style="width:350px" id="nameid3" onchange="if (this.value) window.location.href=this.value">
-            <option></option>
-            @foreach($data as $tu)
-              <option value="{{$tu->url}}">{{$tu->name}}</option>
-            @endforeach
-          </select>
+            <h3>Encuentra el servicio que necesitas</h3><br>
+
+            <div class="row">
+              <div class="col-sm-4 text-right">
+
+              </div>
+
+              <div class="col-sm-4">
+
+                <select class="form-control input-lg" id="nameid3" onchange="if (this.value) window.location.href=this.value">
+                <option></option>
+                @foreach($data as $tu)
+                  <option value="{{$tu->url}}">{{$tu->name}}</option>
+                @endforeach
+              </select>
+
+              </div>
+
+              <div class="col-sm-4">
+
+              </div>
+            </div>
+
+
+
+
           <br><br><br><br><br><br>
 
 
