@@ -44,7 +44,7 @@
       <div class="col-lg-10 mx-auto text-center">
 
           <h3>Siemprexpertos.com es una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios</h3><br>
-          <img src="{{asset('siemprexpertos/images/profesionalquitoacuerdo2.jpg')}}" width="460" height="345" alt=""><br><br><br><br>
+          <img class="img-fluid" src="{{asset('siemprexpertos/images/profesionalquitoacuerdo2.jpg')}}" width="460" height="345" alt=""><br><br><br><br>
           <h2>¿Listo para intentarlo?</h2>
             <a class="btn btn-primary btn-lg" href="{{ url('/iniciarsesion') }}" role="button">Registrate</a>
 
