@@ -72,26 +72,19 @@
 
             <h3>Encuentra el servicio que necesitas</h3><br>
 
-            <div class="row">
-              <div class="col-sm-4 text-right">
 
-              </div>
 
-              <div class="col-sm-4">
 
-                <select class="form-control input-lg" id="nameid3" onchange="if (this.value) window.location.href=this.value">
+
+                <select class="form-control input-sm" id="nameid3" onchange="if (this.value) window.location.href=this.value">
                 <option></option>
                 @foreach($data as $tu)
                   <option value="{{$tu->url}}">{{$tu->name}}</option>
                 @endforeach
               </select>
 
-              </div>
 
-              <div class="col-sm-4">
 
-              </div>
-            </div>
 
 
 
@@ -104,7 +97,7 @@
 
     </div>
 
-    </div>
+
   </div>
 </section>
 
