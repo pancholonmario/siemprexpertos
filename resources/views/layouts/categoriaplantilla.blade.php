@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Siemprexpertos.com | Servicios Profesionales</title>
+    <title>Siemprexpertos.com | Servicios Profesionales, tienes una habilidad y eres experto en alguna profesión o actividad, necesitas ganar dinero extra y buscas trabajo. Inscríbete. Somos una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('siemprexpertos/categorias/vendor/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
@@ -258,7 +258,7 @@
 
           SIEMPREXPERTOS.COM Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
 
-        
+
 
       </p>
       </div>

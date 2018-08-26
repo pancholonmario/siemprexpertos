@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
-<title>Siemprexpertos.com | Servicios Profesionales</title>
+<title>Siemprexpertos.com | Servicios Profesionales, tienes una habilidad y eres experto en alguna profesión o actividad, necesitas ganar dinero extra y buscas trabajo. Inscríbete. Somos una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios.</title>
 <link rel="stylesheet" href="{{asset('siemprexpertos/css/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{asset('siemprexpertos/css/flexslider.css')}}">
 <link rel="stylesheet" href="{{asset('siemprexpertos/css/jquery.fancybox.css')}}">
@@ -87,16 +87,16 @@ hr {
 
         </div>
 
-<div class="col-sm-9">
+          <div class="col-sm-9">
 
-  <select class="form-control input-lg" id="nameid" onchange="if (this.value) window.location.href=this.value">
-  <option></option>
-  @foreach($data as $tu)
-    <option value="{{$tu->url}}">{{$tu->name}}</option>
-  @endforeach
-  </select>
+            <select class="form-control input-lg" id="nameid" onchange="if (this.value) window.location.href=this.value">
+              <option></option>
+              @foreach($data as $tu)
+              <option value="{{$tu->url}}">{{$tu->name}}</option>
+              @endforeach
+            </select>
 
-</div>
+          </div>
 
 <div class="col-sm-1">
 
@@ -246,14 +246,27 @@ about section mirar que pasa borrar-->
 <section id="teams" class="section teams">
   <div class="container">
     <div class="row">
-    <h1 align="center">Si brindas un servicio profesional registrate en Siemprexpertos.com y consigue más clientes de manera gratuita.</h1><br><br><br>
+
+
+      <div class="col-lg-12 mx-auto text-center">
+    <h2 align="center">
+
+    Si brindas un servicio profesional registrate en Siemprexpertos.com y consigue más clientes de manera gratuita.
+
+    </h2><br><br>
+
+      <h3 align="center">Servicios Más Solicitados</h3> <hr/>
+      <center>
+          <img src="https://sonrieparavivirmejor.com/wp-content/uploads/2018/04/lucidos08.jpg" alt="" class="todo" width="160" height="145"><br><br><br>
+        </center>
+      </div>
 
 
 
-          <h3 align="center">Servicios Más Solicitados</h3> <hr/>
-          <center>
-              <img src="https://sonrieparavivirmejor.com/wp-content/uploads/2018/04/lucidos08.jpg" alt="" class="todo" width="160" height="145"><br><br><br>
-            </center>
+
+
+
+
           <div class="col-sm-3" align="center">
             <ul>
               <li>Dj</li><br>
