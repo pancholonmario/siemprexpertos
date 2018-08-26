@@ -115,41 +115,6 @@ hr {
 <!-- header section -->
 
 
-<!-- about section mirar que pasa borrar
-<section id="intro" class="section intro no-padding">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-      <div class="flexslider">
-        <ul class="slides">
-          <li>
-            <div class="col-md-6">
-              <div class="avatar"> <img src="images/intro3.jpg" alt="" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-6">
-              <blockquote>
-                <h1>Quienes Somos</h1>
-              <p>Siemprexpertos es una plataforma que te ayuda a encontrar el profesional que necesitas sin ningún costo.</p>
-
-            </div>
-          </li>
-          <li>
-            <div class="col-md-6">
-              <div class="avatar"> <img src="images/intro4.jpg" alt="" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-6">
-              <blockquote>
-                <h1>Servicio que se brinda</h1>
-              <p>Llena un formulario, recibe cotizaciones gratuitamente y elije la mejor opción para ti. </p>
-              <p>Así de fácil.</p>
-              </blockquote>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-about section mirar que pasa borrar-->
 <br><br><br><br>
 <section>
   <div class="container">
@@ -305,60 +270,7 @@ about section mirar que pasa borrar-->
   </div>
 </section>
 
-<!-- our team section mirar que pasa
-<section id="teams" class="section teams">
-  <div class="container">
-    <h1 align="center">Encuentra un Siemprexperto en tan solo 4 pasos</h1>
-    <hr/><br><br>
-    <div class="row">
-      <div class="col-sm-3" align="center">
-          <h1>1</h1>
-          <h2>Elige el Servicio que Necesitas</h2>
-        <i class="fa fa-4x fa fa-search"></i>
 
-        <h2 class="h3" align="center">..</h2>
-
-        <p>Selecciona un servicio dentro de las categorías que ofrecemos.</p>
-        <br><br>
-      </div>
-
-      <div class="col-sm-3" align="center">
-        <h1>2</h1>
-        <h2>Llena un formulario</h2><br>
-        <i class="fa fa-4x fa fa-pencil-square-o"></i>
-
-        <h2 class="h3" align="center">..</h2>
-
-        <p>Llena un formulario para conocer que tipo de trabajo solicitas.</p>
-          <br><br>
-      </div>
-
-      <div class="col-sm-3" align="center">
-          <h1>3</h1>
-          <h2>Recibe Cotizaciones</h2><br>
-        <i class="fa fa-4x fa fa-indent"></i>
-
-        <h2 class="h3" align="center">..</h2>
-
-        <p>Recibe cotizaciones de distintos profesionales.</p>
-          <br>    <br>
-        </div>
-
-      <div class="col-sm-3" align="center">
-        <h1>4</h1>
-        <h2>Elige un profesional</h2><br>
-        <i class="fa fa-4x fa fa-user"></i>
-
-        <h2 class="h3" align="center">..</h2>
-
-        <p>Seleciona el profesional ideal para ti.</p><br><br>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-our team mirar que pasa -->
 
 <!-- video section mirar que pasa
 <section id="no" style="background-color: #e9eaed">
@@ -400,23 +312,6 @@ our team mirar que pasa -->
 </section>
 
 video mirar que pasa -->
-
-<!-- foto grande section mirar que pasa
-<section >
-
-  <div class="container">
-        <div class="row">
-            <img src="images/pantallaso4.png" class="todo" width="1100">
-        </div>
-
-
-  </div>
-
-</section><br><br>
-foto grande mirar que pasa-->
-
-
-
 
 
 <!-- Testimonials section Gracias a Siemprexpertos obtuve mas pacientes, Pude realizar el evento de mi empresa utilizando esta plataforma ,
@@ -684,33 +579,6 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
     </div>
 
 
-
-<!-- modal: Categorías - Eventos
-<div class="modal  fade" id="popup6" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">cerrar</span></button>
-            <h3 class="modal-title" id="label"><strong>Eventos</strong></h3>
-          </div>
-          <div class="modal-body">
-            <p style="text-align: center">¿Qúe Servicio Necesitas?</p>
-            <p style="text-align: justify">
-              <ul>
-                <li><a href="#">Dj</a></li>
-                <li><a href="#">Catering (Organización eventos)</a></li>
-                <li><a href="#">Animadores infantiles</a></li>
-                <li><a href="#">Fotógrafo</a></li>
-                <li><a href="#">Alquiler para eventos</a></li>
-              </ul>
-          </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>   -->
 
 <!-- modal: Categorías - Limpieza y Hogar-->
 <div class="modal  fade" id="popup7" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
