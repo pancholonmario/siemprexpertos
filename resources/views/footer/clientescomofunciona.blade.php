@@ -68,7 +68,7 @@
       <div class="col-lg-10 mx-auto text-center">
 
           <h3>Siemprexpertos.com te ayuda a conseguir profesionales de manera gratuita visita nuestras categorias disponibles</h3><br>
-          <img src="{{asset('siemprexpertos/images/profesionalquitoacuerdo3.jpg')}}" width="460" height="345" alt=""><br><br><br><br>
+          <img class="img-fluid" src="{{asset('siemprexpertos/images/profesionalquitoacuerdo3.jpg)')}}" width="460" height="345" alt=""><br><br><br><br>
 
             <h3>Encuentra el servicio que necesitas</h3>
             <select style="width:350px" id="nameid3" onchange="if (this.value) window.location.href=this.value">
