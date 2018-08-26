@@ -25,7 +25,7 @@
 
   <div class="col-md-12" align="center">
     <h5>Contáctanos y envíanos tu hoja de vida:  <a href="mailto:info@siemprexpertos.com">info@siemprexpertos.com</a></h5><br><br>
-    <a href="mailto:pancho7mar@gmail.com"> <img src="http://emunah.co/wp-content/uploads/2016/07/portada_icon_cv1.png" alt=""></a><br><br>
+    <a href="mailto:info@siemprexpertos.com"> <img src="http://emunah.co/wp-content/uploads/2016/07/portada_icon_cv1.png" alt=""></a><br><br>
       <a href="/">Regresar al inicio</a><br>
 
   </div>
