@@ -4,8 +4,9 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta name="description" content="">
+<meta name="description" content="Siemprexpertos es una plataforma web que te ayuda a promocionar tu negocio, tienes una habilidad y eres experto en alguna profesión y buscas trabajo extra entonces inscribete. Consigue más clientes de manera gratuita. Tienes experiencia en: Asesoría, Brindar Cursos, Cuidado en el Bienestar, organizar eventos, cuidado en el hogar, servico técnico.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta name="author" content="Equipo de Siemprexpertos: Mario Francisco Astudillo, Esteban Gonzales, Mauricio Gonzalez">
 <title>Siemprexpertos.com | Servicios Profesionales, tienes una habilidad y eres experto en alguna profesión o actividad, necesitas ganar dinero extra y buscas trabajo. Inscríbete. Somos una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios.</title>
 <link rel="stylesheet" href="{{asset('siemprexpertos/css/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{asset('siemprexpertos/css/flexslider.css')}}">
