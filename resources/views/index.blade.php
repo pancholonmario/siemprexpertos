@@ -126,7 +126,8 @@ hr {
 
     <h4>Paso 1:</h4>
     <h5>ELIGE UNA CATEGORÍA</h5>
-    <img width="220" height="195" src="http://wekazi.com/contenido/uploads/2016/01/wekazi.invbit.systems_background_image_slider_1_detail.png" alt="">
+
+      <img src="https://image.flaticon.com/icons/png/512/70/70376.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
         <p>Selecciona una de nuestras categorías disponibles</p>
     </div>
 
@@ -135,7 +136,7 @@ hr {
 
     <h4>Paso 2:</h4>
     <h5>SELECCIONA UN SERVICIO</h5>
-    <img width="220" height="195" src="https://png.clipart.me/previews/2e2/boy-working-with-computer-26520.jpg" alt="">
+      <img src="https://www.iberogen.es/content/uploads/2014/05/formulario.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
       <p>Encuentra desde un dj hasta un arquitecto y mucho más</p>
     </div>
 
@@ -144,7 +145,9 @@ hr {
 
         <h4>Paso 3:</h4>
         <h5>ELIGE UN EXPERTO y PONTE EN CONTACTO</h5>
-        <img width="220" height="195" src="http://www.nextinmo.com/WANNONCES_WEB/ES/PROFESIONALES.png" alt="">
+
+        <img src="https://image.flaticon.com/icons/png/512/5/5176.png" class="img-rounded" alt="Cinque Terre" width="100" height="100">
+        <img src="https://cdn.icon-icons.com/icons2/1103/PNG/512/handshake_78914.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
         <p>Todos nuestros expertos han pasado por un proceso de selección, contacta a un profesional de manera gratuita y rápida.</p>
         </div>
 
