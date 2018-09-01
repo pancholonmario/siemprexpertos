@@ -51,7 +51,7 @@ hr {
 <section class="banner" role="banner">
   <!--header navigation -->
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="{{ url('/') }}"><img src="{{asset('siemprexpertos/categorias/logo4.png')}}" width="250" height="30" alt="Los mejores profesionales en Quito"></a>
+    <div class="header-content clearfix"> <a class="logo" href="{{ url('/') }}"><img class="img-responsive" src="{{asset('siemprexpertos/categorias/logo4.png')}}" width="225" height="10" alt="Los mejores profesionales en Quito"></a>
 
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
