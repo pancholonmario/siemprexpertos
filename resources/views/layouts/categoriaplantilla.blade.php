@@ -42,6 +42,8 @@
 
   }
 
+
+
   </style>
 
 
@@ -51,8 +53,7 @@
   </head>
 
   <body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <!-- Navigation   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="{{ url('/') }}"> <img class="img-fluid" src="{{asset('siemprexpertos/categorias/logo4.png')}}"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +76,35 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+              <img src="{{asset('siemprexpertos/categorias/logo4.png')}}" width="250" height="30" alt="">
+            </a>
+            <button class="navbar-toggler btn-lg" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{ url('/') }}">PÁGINA DE INICIO
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/') }}">¿NECESITAS UN SERVICIO?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url('/iniciarsesion') }}">INICIAR SESIÓN <span style="font-size:9pt;">(PROFESIONALES)</span></a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </nav>
 
 
   @yield('headerbody')

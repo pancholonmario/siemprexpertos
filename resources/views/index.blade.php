@@ -8,13 +8,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
   <meta name="author" content="Equipo de Siemprexpertos: Mario Francisco Astudillo, Esteban Gonzales, Mauricio Gonzalez">
 <title>Siemprexpertos.com | Servicios Profesionales, tienes una habilidad y eres experto en alguna profesión o actividad, necesitas ganar dinero extra y buscas trabajo. Inscríbete. Somos una plataforma web que permite a profesionales generar mayores ingresos al prestar sus servicios.</title>
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/bootstrap.min.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/flexslider.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/jquery.fancybox.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/main.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/responsive.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/animate.min.css')}}">
-<link rel="stylesheet" href="{{asset('siemprexpertos/css/font-icon.css')}}">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/bootstrap.min.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/flexslider.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/jquery.fancybox.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/main.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/responsive.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/animate.min.css')}} ">
+<link rel="stylesheet" href="{{ asset('siemprexpertos/css/font-icon.css')}} ">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- link librerias modal -->
 <link rel="stylesheet" href="{{asset('siemprexpertos/modal/plugins/bootstrap/css/bootstrap.css')}}">
@@ -51,7 +51,7 @@ hr {
 <section class="banner" role="banner">
   <!--header navigation -->
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="{{ url('/') }}"><img src="{{asset('siemprexpertos/images/logo7.png')}}" alt="Los mejores profesionales en Quito"></a>
+    <div class="header-content clearfix"> <a class="logo" href="{{ url('/') }}"><img src="{{asset('siemprexpertos/categorias/logo4.png')}}" width="250" height="30" alt="Los mejores profesionales en Quito"></a>
 
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
