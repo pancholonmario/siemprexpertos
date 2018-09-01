@@ -386,7 +386,7 @@
               <h5 style="color:rgb(252, 251, 252)"; class="mb-1">Forma parte de nuestra red de Profesionales de Siemprexpertos.com!</h5>
           </li>
           <li class="list-inline-item">
-              <a href="{{ url('/iniciarsesion') }}" class="btn btn-danger btn-rounded">Registrate!</a>
+              <a href="{{ url('/iniciarsesion') }}" class="btn btn-primary btn-rounded">Registrate!</a>
           </li>
       </ul>
   </div>
