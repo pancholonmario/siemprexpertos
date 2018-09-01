@@ -51,10 +51,13 @@
 
                       <div align="center">
                         <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/hogar/images/plomero.png')}}" width="460" height="345" VSPACE="3"> </a>
+                        <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/hogar/images/arquitecturainterior.png')}}" width="460" height="345" VSPACE="3"> </a>
 
                       </div>
 
-
+                        <div align="center">
+                              <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/hogar/images/mudanza.png')}}" width="460" height="345" VSPACE="3"> </a>
+                        </div>
 
           </div>
         </div>

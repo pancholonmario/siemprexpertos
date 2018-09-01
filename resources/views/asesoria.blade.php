@@ -62,7 +62,9 @@
 
                       </div>
 
-
+                      <div align="center">
+                          <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/asesoria/images/marketingdigital.png')}}" width="460" height="345" VSPACE="3"> </a>
+                          </div>
 
           </div>
         </div>

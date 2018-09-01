@@ -61,6 +61,10 @@
                     <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/eventos/images/serviciolimusina.png')}}" width="460" height="345" VSPACE="3"> </a>
                   </div>
 
+                  <div align="center">
+                        <a href="#popup5" data-toggle="modal" data-target="#popup5"> <img class="todo" src="{{asset('siemprexpertos/nova/eventos/images/musicaenvivo.png')}}" width="460" height="345" VSPACE="3"> </a>
+                  </div>
+
 
       </div>
     </div>
@@ -88,7 +92,7 @@
           <a href="#"> <h5>- Servicio de Catering</h5></a>
             </div>
           <div class="col-sm-8">
-            <img class="img-fluid" src="{{asset('siemprexpertos/nova/eventos/images/eventosimportantes.png')}}" width="460" height="375" alt=""> 
+            <img class="img-fluid" src="{{asset('siemprexpertos/nova/eventos/images/eventosimportantes.png')}}" width="460" height="375" alt="">
           </div>
         </div><br><br>
 <hr/>
