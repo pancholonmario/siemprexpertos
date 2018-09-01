@@ -4,9 +4,9 @@
 @section('headerbody')
 <header class="bg-primary text-white" style="background-image: url('siemprexpertos/nova/informatica/images/serviciotecnicohome.jpg'); background-size: cover;">
     <div class="container text-center">
-      <h1>SERVICIO TÉCNICO</h1>
+      <h1><b>SERVICIO TÉCNICO</b></h1>
       <hr/>
-      <p class="lead">Reparación de Ordenadores, servicio técnico y más..</p>
+      <p class="lead"><b>Reparación de Ordenadores, servicio técnico y más..</b></p>
     </div>
   </header>
 @stop

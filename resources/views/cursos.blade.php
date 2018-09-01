@@ -4,9 +4,9 @@
 @section('headerbody')
 <header class="bg-primary text-white" style="background-image: url('siemprexpertos/nova/cursos/images/cursoshome.jpg'); background-size: cover;">
     <div class="container text-center">
-      <h1>CURSOS</h1>
+      <h1><b>CURSOS</b></h1>
       <hr/>
-      <p class="lead">Clases de Guitarra, clases particulares, clases de inglés, y más..</p>
+      <p class="lead"><b>Clases de Guitarra, clases particulares, clases de inglés, y más..</b></p>
     </div>
   </header>
 @stop

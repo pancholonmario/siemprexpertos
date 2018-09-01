@@ -4,9 +4,9 @@
 @section('headerbody')
 <header class="bg-primary text-white" style="background-image: url('siemprexpertos/nova/hogar/images/hogarhome.jpg'); background-size: cover;">
       <div class="container text-center">
-        <h1>HOGAR</h1>
+        <h1><b>HOGAR</b></h1>
         <hr/>
-        <p class="lead">Plomero, Jardinero, lavandería de domicilio y más..</p>
+        <p class="lead"><b>Plomero, Jardinero, lavandería de domicilio y más..</b></p>
       </div>
     </header>
 @stop

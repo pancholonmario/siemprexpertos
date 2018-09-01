@@ -4,9 +4,9 @@
 @section('headerbody')
 <header class="bg-primary text-white" style="background-image: url('siemprexpertos/nova/eventos/images/eventoshome.jpg'); background-size: cover;">
   <div class="container text-center">
-    <h1>EVENTOS</h1>
+    <h1><b>EVENTOS</b></h1>
     <hr/>
-    <p class="lead">Dj, Fotógrafos, servico de Catering, animadores infantiles y más..</p>
+    <p class="lead"><b>Dj, Fotógrafos, servico de Catering, animadores infantiles y más..</b></p>
 
   </div>
 </header>
