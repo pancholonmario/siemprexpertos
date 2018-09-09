@@ -3,7 +3,7 @@
 
 @section('headerbody')
 <header class="bg-primary text-white" style="background-image: url('siemprexpertos/nova/informatica/images/serviciotecnicohome.jpg'); background-size: cover;">
-    <div class="container text-center">
+    <div class="container text-center" style="background-color:rgba(18, 17, 19, 0.58);">
       <h1><b>SERVICIO TÉCNICO</b></h1>
       <hr/>
       <p class="lead"><b>Reparación de Ordenadores, servicio técnico y más..</b></p>
