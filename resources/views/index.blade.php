@@ -367,7 +367,7 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
         <br><br>
 
         <div class="" style="text-align: center;">
-          <a href="https://m.me/1709636575998166" align"center">Envíanos un mensaje en Facebook
+          <a href="https://m.me/1709636575998166" align"center" target="_blank">Envíanos un mensaje en Facebook
           <i class="fa fa-facebook-f"></i></a>
         </div>
 
