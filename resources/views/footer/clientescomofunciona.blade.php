@@ -13,7 +13,7 @@
         <div class="col-lg-9 mx-auto"><br>
         <h2>Pasos:</h2><br>
         <h3>Paso 1: ELIGE UNA CATEGORÍA</h3>
-      <img src="https://image.flaticon.com/icons/png/512/70/70376.png" class="img-rounded" alt="Cinque Terre" width="80" height="80">
+      <img src="{{asset('siemprexpertos/texturas/lupaprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="80" height="80">
 
         <br><br>
         <p class="lead">Selecciona una de nuestras categorías disponibles</p>
@@ -27,7 +27,7 @@
 
       <div class="col-lg-9 mx-auto"><br>
       <h3>Paso 2: SELECCIONA UN SERVICIO</h3>
-      <img src="https://www.iberogen.es/content/uploads/2014/05/formulario.png" class="img-rounded" alt="Cinque Terre" width="80" height="80">
+      <img src="{{asset('siemprexpertos/texturas/formularioprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="80" height="80">
       <br><br>
       <p class="lead">Encuentra desde un dj hasta un arquitecto.</p>
     </div>
@@ -39,7 +39,7 @@
 
     <div class="col-lg-9 mx-auto"><br>
     <h3>Paso 3: ELIGE UN EXPERTO</h3>
-    <img src="https://image.flaticon.com/icons/png/512/5/5176.png" class="img-rounded" alt="Cinque Terre" width="80" height="80">
+    <img src="{{asset('siemprexpertos/texturas/buscarprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="80" height="80">
     <br><br>
     <p class="lead">Todos nuestros expertos han pasado por un proceso de selección.</p>
   </div>
@@ -51,7 +51,7 @@
 
   <div class="col-lg-9 mx-auto"><br>
   <h3>Paso 4: PONTE EN CONTACTO</h3>
-  <img src="https://cdn.icon-icons.com/icons2/1103/PNG/512/handshake_78914.png" class="img-rounded" alt="Cinque Terre" width="80" height="80">
+  <img src="{{asset('siemprexpertos/texturas/propuestadetrabajo.png')}}" class="img-rounded" alt="Cinque Terre" width="80" height="80">
   <br><br>
   <p class="lead">Contacta a un profesional de manera gratuita y rápida.</p>
 </div>
@@ -76,7 +76,7 @@
 
 
 
-                <select class="form-control input-sm" id="nameid3" onchange="if (this.value) window.location.href=this.value">
+                <select style="width: 100%; height: 50px;" id="nameid3" onchange="if (this.value) window.location.href=this.value">
                 <option></option>
                 @foreach($data as $tu)
                   <option value="{{$tu->url}}">{{$tu->name}}</option>

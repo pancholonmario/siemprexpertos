@@ -38,6 +38,8 @@ hr {
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+
 <link rel="shortcut icon" href="{{ url('favicon.png') }}">
 
 </head>
@@ -75,14 +77,12 @@ hr {
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <div class="row">
-
-            <h2 style="font-size: 35px; color:rgb(252, 251, 252); text-align: center;">¿NECESITAS UN SERVICIO PROFESIONAL?</h2>
-            <p style="font-size: 18px;">Dj, Fotógrafos, Plomeros y mucho más..GRATIS</p>
-
+        <div class="row" style="background-color:rgba(182, 115, 57, 0.55);">
+            <h2 style="font-size: 35px; color:white; text-align: center; opacity: 4.9;"><b>¿NECESITAS UN SERVICIO PROFESIONAL?</b></h2>
+            <p style="font-size: 18px;"><b>Dj, Fotógrafos, Plomeros y mucho más..GRATIS</b></p>
 
 
-        </div>
+        </div><br>
 
         <div class="col-sm-1 text-right">
 
@@ -90,7 +90,7 @@ hr {
 
           <div class="col-sm-9">
 
-            <select class="form-control input-lg" id="nameid" onchange="if (this.value) window.location.href=this.value">
+            <select style="width: 100%; height: 50px;" aria-hidden="true" id="nameid" onchange="if (this.value) window.location.href=this.value">
               <option></option>
               @foreach($data as $tu)
               <option value="{{$tu->url}}">{{$tu->name}}</option>
@@ -99,9 +99,9 @@ hr {
 
           </div>
 
-<div class="col-sm-1">
+          <div class="col-sm-1">
 
-</div>
+          </div>
         <br>
 
 
@@ -127,7 +127,7 @@ hr {
     <h4>Paso 1:</h4>
     <h5>ELIGE UNA CATEGORÍA</h5>
 
-      <img src="https://image.flaticon.com/icons/png/512/70/70376.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
+      <img src="{{asset('siemprexpertos/texturas/lupaprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="110" height="110">
         <p>Selecciona una de nuestras categorías disponibles</p>
     </div>
 
@@ -136,7 +136,7 @@ hr {
 
     <h4>Paso 2:</h4>
     <h5>SELECCIONA UN SERVICIO</h5>
-      <img src="https://www.iberogen.es/content/uploads/2014/05/formulario.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
+      <img src="{{asset('siemprexpertos/texturas/formularioprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="110" height="110">
       <p>Encuentra desde un dj hasta un arquitecto y mucho más</p>
     </div>
 
@@ -146,8 +146,8 @@ hr {
         <h4>Paso 3:</h4>
         <h5>ELIGE UN EXPERTO y PONTE EN CONTACTO</h5>
 
-        <img src="https://image.flaticon.com/icons/png/512/5/5176.png" class="img-rounded" alt="Cinque Terre" width="100" height="100">
-        <img src="https://cdn.icon-icons.com/icons2/1103/PNG/512/handshake_78914.png" class="img-rounded" alt="Cinque Terre" width="110" height="110">
+        <img src="{{asset('siemprexpertos/texturas/buscarprofesionales.png')}}" class="img-rounded" alt="Cinque Terre" width="100" height="100">
+        <img src="{{asset('siemprexpertos/texturas/propuestadetrabajo.png')}}" class="img-rounded" alt="Cinque Terre" width="110" height="110">
         <p>Todos nuestros expertos han pasado por un proceso de selección, contacta a un profesional de manera gratuita y rápida.</p>
         </div>
 
@@ -226,7 +226,7 @@ hr {
 
       <h3 align="center">Servicios Más Solicitados</h3> <hr/>
       <center>
-          <img src="https://sonrieparavivirmejor.com/wp-content/uploads/2018/04/lucidos08.jpg" alt="" class="todo" width="160" height="145"><br><br><br>
+          <img src="{{asset('siemprexpertos/texturas/acuerdo.png')}}" alt="" class="todo" width="160" height="145"><br><br><br>
         </center>
       </div>
 
@@ -865,10 +865,11 @@ Desde que me inscribí a la plataforma he obtenido más proyectos, Me parece inc
 <!-- links scripts modales -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
 <script type="text/javascript">
 
       $("#nameid").select2({
-            placeholder: "  B U S C A R ",
+            placeholder: "  B  U  S  C  A  R  ",
             allowClear: true
         });
 </script>
