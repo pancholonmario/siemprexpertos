@@ -24,8 +24,8 @@
 
 
   <div class="col-md-12" align="center">
-    <h5>Contáctanos y envíanos tu hoja de vida:  <a href="mailto:info@siemprexpertos.com">info@siemprexpertos.com</a></h5><br><br>
-    <a href="mailto:info@siemprexpertos.com"> <img src="{{asset('siemprexpertos/texturas/hojadevidaprofesion.png')}}" with="200" height="200" class="img-responsive" alt=""></a><br><br>
+    <h5>Contáctanos y envíanos tu hoja de vida:  <a href="mailto:infosiemprexpertos@gmail.com">infosiemprexpertos@gmail.com</a></h5><br><br>
+    <a href="mailto:infosiemprexpertos@gmail.com" target="_blank"> <img src="{{asset('siemprexpertos/texturas/hojadevidaprofesion.png')}}" with="200" height="200" class="img-responsive" alt=""></a><br><br>
       <a href="/">Regresar al inicio</a><br>
 
   </div>
@@ -248,7 +248,7 @@
             <a align="center" href="https://m.me/1709636575998166" target="_blank"> <h5>Envíanos un mensaje en Facebook <i class="fa fa-facebook-f"></i></h5>
             </a><br>
             <h5>o tu</h5><br>
-            <h5>CV a: <a href="mailto:info@siemprexpertos.com">info@siemprexpertos.com&nbsp;&nbsp;</a>  <i class="fa fa-sign-in" style="font-size:24px">  </i>&nbsp;&nbsp;Analizaremos tu perfil</h5>
+            <h5>CV a: <a href="mailto:infosiemprexpertos@gmail.com" target="_blank">infosiemprexpertos@gmail.com&nbsp;&nbsp;</a>  <i class="fa fa-sign-in" style="font-size:24px">  </i>&nbsp;&nbsp;Analizaremos tu perfil</h5>
       </div>
 
 
